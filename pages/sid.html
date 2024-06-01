@@ -9,22 +9,28 @@
   <script src="https://kit.fontawesome.com/5818ad28f4.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/style/normalize.css">
   <link rel="stylesheet" href="/style/indext.css">
-  <title>Document</title>
+  <title>Side Nav</title>
 </head>
 <body>
-  <div>
-    
+  <div class="parent-sidnav-div">
+      <h1 class="h1-sidnav">side nav</h1>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-button">
+      <i class="fa-solid fa-bars"></i>
+      <p class="open">Open</p>
+    </label>
+    <nav class="sidenav">
+      <label for="menu-toggle" class="close-button">
+        <i class="fa-solid fa-x"></i>
+      </label>
+      <ul class="sidenav-ul">
+        <li class="sidenav-home-li"><a href="#" class="sidenav-h-a">Home</a></li>
+        <li class="sidenav-contact-li"><a href="#" class="sidenav-c-a">Contact</a></li>
+        <li class="sidenav-about-li"><a href="#" class="sidenav-ab-a">About</a></li>
+      </ul>
+    </nav>
   </div>
-  <nav class="sidbar">
-    <div class="cloes-button">
-      <i class="fa-solid fa-x"></i>
-    </div>
-    <ul class="sid_ul">
-      <li class="sid-home-li"><a class="sid-h-a">Home</a></li>
-      <li class="sid-contact-li"><a class="sid-c-a">Contact</a></li>
-      <li class="sid-about-li"><a class="sid-ab-a">About</a></li>
-    </ul>
-  </nav>
+ 
 </body>
 </html>
 

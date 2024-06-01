@@ -4,6 +4,8 @@ toggeleButton.addEventListener("click" , () => {
   navbarLinks.classList.toggle("active");
 });
 
+
+
 /*this is a simple explanation of the JavaScript code you might want to know*/
 
 //const toggleButton = document.getElementsByClassName("toggle-button")[0]; 
