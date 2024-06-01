@@ -263,3 +263,19 @@ a{
     padding: 0.938rem;
   }
 }
+.parent-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+.ul-overlay{
+  position: absolute;
+  top: 50%;
+}
+.parent-overlay ul li a{
+  color: white;
+  text-decoration: none;
+}
