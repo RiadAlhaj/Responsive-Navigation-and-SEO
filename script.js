@@ -20,6 +20,7 @@ toggeleButton.addEventListener("click" , () => {
 //toggleButton.addEventListener("click", () => { navbarLinks.classList.toggle("active") }) This adds a click event listener to the toggleButton element When the button is clicked it toggles the active class on the navbarLinks element which can be used to show or hide the navigation links with CSS.
 //
 //
-//if you like me to make the Hamburger  menu without JavaScript I can do it just with HTML and CSS but I thought would JavaScript would look more professional.
+//if you like me to make the Hamburger  menu without JavaScript I can do it just with HTML and CSS but I thought would JavaScript would look more professional.//
+//I did not add any optimization for the search engine because you did not mention that on the assignment description//
 // thank you for reading my the comment //
 
