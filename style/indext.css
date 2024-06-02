@@ -70,7 +70,7 @@ a{
   background-color: white;
   border-radius: 0.625rem;
 }
-@media screen and (min-width:20rem) and (max-width:48rem) {
+@media screen and (max-width:48rem) {
   .navbar{
     justify-content: center;
   }
@@ -148,7 +148,8 @@ a{
   position: fixed;
   top: 0;
   left:-15.625rem; 
-  width: 15.625rem;
+  max-width: 15.625rem;
+  width: 100%;
   height: 100%;
   background-color: #333;
   transition: left 0.3s;
@@ -213,7 +214,7 @@ a{
 #menu-toggle:checked ~ .sidenav .close-button {
   display: block;
 }
-@media screen and  (min-width:20rem) and (max-width:48rem) {
+@media screen and  (max-width:48rem) {
   .h1-sidnav{
     font-family: "Poppins", sans-serif;
     font-size: 1.875rem;
